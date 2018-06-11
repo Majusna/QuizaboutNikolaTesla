@@ -1,0 +1,83 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="colorPrimary">#455A64</item>
+        <item name="colorPrimaryDark">#455A64</item>
+        <item name="colorAccent">#00BCD4</item>
+        <item name="colorButtonNormal">#455A64</item>
+    </style>
+
+    <!-- the questions theme -->
+    <style name="questions" >
+
+        <item name="android:background">#455A64</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+
+    <!-- the answers theme -->
+    <style name="answers" >
+
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">64dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <!-- the answer on the 3.question theme -->
+    <style name="answers_3" >
+
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingTop">24dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+
+    <!-- edit text on the 3.question theme -->
+    <style name="editText_3" >
+
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_width">32dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:maxLength">1</item>
+        <item name="android:inputType">textCapCharacters</item>
+    </style>
+
+
+    <!-- check boxes in question 9 -->
+    <style name="check_boxes" >
+
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:checked">false</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+
+    <!-- facts in question 9 -->
+    <style name="facts_9" >
+
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+</resources>

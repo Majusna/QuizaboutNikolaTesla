@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E1F5FE"
+    tools:context="com.example.android.quizaboutnikolatesla.MainActivity">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#37474F"
+            android:src="@drawable/nikola_tesla" />
+
+        <TextView
+            style="@style/questions"
+            android:text="@string/question1" />
+
+        <RadioGroup
+            android:id="@+id/question1"
+            style="@style/answers"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Austro-Hungarian officer" />
+
+            <RadioButton
+                android:id="@+id/priest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Orthodox priest" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Farmer" />
+
+        </RadioGroup>
+
+
+        <TextView
+            style="@style/questions"
+            android:text="@string/question2" />
+
+        <RadioGroup
+            style="@style/answers"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Electric charge" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The strength of an electric current" />
+
+            <RadioButton
+                android:id="@+id/magneticinduction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Magnetic induction" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/questions"
+            android:text="@string/question3" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/projects" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="48dp">
+
+            <EditText
+                android:id="@+id/answerA"
+                style="@style/editText_3" />
+
+            <EditText
+                android:id="@+id/answerB"
+                style="@style/editText_3"
+                android:layout_below="@id/answerA" />
+
+            <EditText
+                android:id="@+id/answerC"
+                style="@style/editText_3"
+                android:layout_below="@id/answerB" />
+
+            <EditText
+                android:id="@+id/answerD"
+                style="@style/editText_3"
+                android:layout_below="@id/answerC" />
+
+            <TextView
+                android:id="@+id/textA"
+                style="@style/answers_3"
+                android:layout_toRightOf="@id/answerA"
+                android:text="Columbo\'s egg" />
+
+            <TextView
+                android:id="@+id/textB"
+                style="@style/answers_3"
+                android:layout_below="@id/answerA"
+                android:layout_toRightOf="@id/answerB"
+                android:text="Induction motor" />
+
+            <TextView
+                android:id="@+id/textC"
+                style="@style/answers_3"
+                android:layout_below="@id/answerB"
+                android:layout_toRightOf="@id/answerC"
+                android:text="Wardenclyffe Tower" />
+
+            <TextView
+                android:id="@+id/textD"
+                style="@style/answers_3"
+                android:layout_below="@id/answerC"
+                android:layout_toRightOf="@id/answerD"
+                android:text="Tesla\'s transformer" />
+
+
+        </RelativeLayout>
+
+
+        <TextView
+            style="@style/questions"
+            android:text="@string/question4" />
+
+        <RadioGroup
+            style="@style/answers"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/george"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="George Westinghouse" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="J. P. Morgan" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Robert Johnson" />
+
+        </RadioGroup>
+
+
+        <TextView
+            style="@style/questions"
+            android:text="@string/question5" />
+
+        <RadioGroup
+            style="@style/answers"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Joseph Thomson" />
+
+            <RadioButton
+                android:id="@+id/marconi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Guglielm Marconi" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Robert Lomas" />
+
+        </RadioGroup>
+
+
+        <TextView
+            style="@style/questions"
+            android:text="@string/question6" />
+
+        <RadioGroup
+            style="@style/answers"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Colorado Springs" />
+
+            <RadioButton
+                android:id="@+id/longIsland"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Long Island" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pittsburgh" />
+
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/question7"
+            style="@style/questions"
+            android:text="@string/question7" />
+
+        <EditText
+
+            android:id="@+id/edison"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="48dp"
+            android:layout_marginTop="16dp"
+            android:hint="_ _ _ _ _ _   _ _ _ _ _ _"
+            android:inputType="textCapWords"
+            android:maxLength="13" />
+
+
+        <TextView
+            style="@style/questions"
+            android:text="@string/question8" />
+
+        <RadioGroup
+            style="@style/answers"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wardenclyffe" />
+
+            <RadioButton
+                android:id="@+id/niagara"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Niagara Falls" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Colorado Springs" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/questions"
+            android:text="@string/question9" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/fact1"
+                    style="@style/check_boxes"
+                    android:onClick="firstFact" />
+
+                <TextView
+                    android:id="@+id/first_line"
+                    style="@style/facts_9" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/fact2"
+                    style="@style/check_boxes"
+                    android:onClick="secondFact" />
+
+                <TextView
+                    android:id="@+id/second_line"
+                    style="@style/facts_9" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/fact3"
+                    style="@style/check_boxes"
+                    android:onClick="thirdFact" />
+
+                <TextView
+                    android:id="@+id/third_line"
+                    style="@style/facts_9" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/fact4"
+                    style="@style/check_boxes"
+                    android:onClick="fourthFact" />
+
+                <TextView
+                    android:id="@+id/fourth_line"
+                    style="@style/facts_9" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/fact5"
+                    style="@style/check_boxes"
+                    android:onClick="fifthFact" />
+
+                <TextView
+                    android:id="@+id/fifth_line"
+                    style="@style/facts_9" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/fact6"
+                    style="@style/check_boxes"
+                    android:onClick="sixtFact" />
+
+                <TextView
+                    android:id="@+id/sixth_line"
+                    style="@style/facts_9" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="showResult"
+            android:text="Submit Answers"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+
+</ScrollView>

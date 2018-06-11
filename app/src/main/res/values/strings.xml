@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Quiz about Nikola Tesla</string>
+
+    <!-- questions in the quiz -->
+    <string name="question1">1.Nikola Tesla was born in Serbian family, his father was: </string>
+    <string name="question2">2.On the centenary of his birth, was named after him SI measurement unit system for: </string>
+    <string name="question3">3.These are images of some of his most important inventions. Connect them with their names: </string>
+    <string name="question4">4.One famous American industrialist in 1888, bought Tesla\'s patents alternating current:</string>
+    <string name="question5">5.The US Supreme Court\'s 1943 posthumously admitted that Nikola Tesla is father of radio. But the Nobel Prize for this discovery in the field of wireless telegraphy already in 1909 assigned:</string>
+    <string name="question6">6.The largest and most daring project of Nikola Tesla, a center for wireless transfer of energy was in:</string>
+    <string name="question7">7.The most famous rival Nikola Tesla was:</string>
+    <string name="question8">8.Tesla\'s polyphase system of alternating current was launched in 1896. to:</string>
+    <string name="question9">For the end,some interesting facts about Nikola Tesla! Click on every check box to discover them :</string>
+
+    <!-- funnu facts -->
+    <string name="fact1">He was born during a storm</string>
+    <string name="fact2">He spoke eight languages</string>
+    <string name="fact3">He had a photographic memory</string>
+    <string name="fact4">He was obsessed with the number 3, and pathological fear of germs</string>
+    <string name="fact5">His good friend was writer Mark Twain</string>
+    <string name="fact6">Back in 1909,he predicted smartphones</string>
+
+
+
+
+</resources>
